@@ -8,6 +8,8 @@
 </head>
 <body>
     <script>
+        /*Exercício para abrir um pop-up com uma nova janela e as definições que você quiser como largura e altura, no exemplo a seguir eu 
+        coloquei minha página no linkedin com 400x500*/
         var win = null
         function NovaJanela(pagina, nome, w, h, scroll){
             LeftPosition=(screen.width) ? (screen.width - w) / 2 : 0
@@ -17,6 +19,8 @@
             win = window.open(pagina, nome, settings)
         }
 
+        NovaJanela("http://www.linkedin.com/in/taynagalbiate/","Linkedin", 400, 500, false)
     </script>
+
 </body>
 </html>
